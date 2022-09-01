@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    height: 10vh;
+    border-bottom: 2.5px solid crimson;
+    position: relative;
+}
+
+#nav{
+    height: 89.5vh; 
+    float:left;
+    background-color: crimson;
+    position: relative;
+    width: 15%;
+}
+
+#main {
+    height: 80vh; 
+    border-bottom: 2.5px solid crimson;
+    overflow-x: hidden;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+
+}
+
+#main li {
+    display: inline-block;
+    border: 1px solid crimson;
+    width: 90%;
+    margin-top: 1%;
+}
+
+
+#postsHidebutton {
+    position: absolute;
+    cursor: pointer;
+    display:block;
+    color: crimson;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.3em;
+    font-family: Arial;
+    top: 50%;
+    left: 40%;
+}
+
+#postsGetButton {
+    position: absolute;
+    cursor: pointer;
+    color: crimson;
+    display: block;
+    background-color: transparent;
+    border-color: transparent;;
+    font-size: 1.3em;
+    font-family: Arial;
+    top: 50%;
+    left: 20%;
+}
+
+svg {
+    width: 2vh;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    cursor: pointer;
+
+}
+
+#site-search {
+    height: 3vh;
+    width: 80%;
+    float: left;
+}
+
+
+#searchBtn {
+    height: 3.4vh;
+}
+
+label {
+    font-size: 1.25em;
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid crimson;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    right: 0;
+    margin: auto;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
